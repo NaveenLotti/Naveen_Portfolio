@@ -1,0 +1,73 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+span {
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.intro-box {
+  background-color: #5a1ee5;
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  display: inline-flex;
+  gap: 10px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.intro-box:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.5);
+}
+
+.intro-text {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #ffffffcc;
+}
+
+.name-text {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #00e5ff;
+  text-shadow: 0 0 10px #00e5ff, 0 0 20px #00e5ff;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+.dynamic-text {
+  display: inline-flex;
+  background: none;
+  color: #ffffff;
+  overflow: hidden;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #00e5ff, 0 0 20px #00e5ff;
+  }
+  to {
+    text-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+  }
+}
