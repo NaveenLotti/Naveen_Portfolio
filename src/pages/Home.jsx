@@ -71,6 +71,13 @@ const Home = () => {
 
       <div className="about" id="about" style={{
         display: 'flex',
+        backgroundColor: '#000000',
+        borderRadius: '50px',
+        paddingTop: '50px',
+        paddingBottom: '20px',
+        border: '1px solid #00ffd1',
+        marginLeft: '90px',
+        marginRight: '90px',
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'flex-start',
@@ -90,7 +97,7 @@ const Home = () => {
             showBehindGradient={true}
             showUserInfo={true}
             enableTilt={true}
-            onContactClick={() => console.log('Contact clicked')}
+            onContactClick={() => window.open("https://mail.google.com/mail/?view=cm&to=naveenlotti02@gmail.com")}
           />
         </div>
 
