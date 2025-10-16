@@ -1,13 +1,13 @@
 import React from "react";
 import "./Home.css";
 import RotatingText from "../components/reactbits/RotatingText/RotatingText";
-import GlitchText from "../components/reactbits/GlitchText/GlitchText";
 import CircularGallery from "../components/reactbits/CircularGallery/CircularGallery";
 import ProfileCard from "../components/reactbits/ProfileCard/ProfileCard";
 import pro_img from '../assets/ChatGPT Image Jul 22, 2025, 09_57_42 AM (1).png'
 import icon_img from '../assets/code.png';
 import Galaxy from "../components/reactbits/Galaxy/Galaxy";
 import Footer from "../components/Footer";
+import TextType from "../components/reactbits/TextType/TextType";
 
 
 const Home = () => {
@@ -32,7 +32,19 @@ const Home = () => {
           >
             HELLO, I’M
           </span>
-          <GlitchText >NAVEEN </GlitchText>
+          <TextType
+            style={{
+              fontSize: "4rem",
+              fontWeight: "bold",
+              marginLeft: "20px",
+            }}
+            text={['Naveen Kumar Lotti']}
+            typingSpeed={200}
+            pauseDuration={1500}
+            showCursor={true}
+            cursorCharacter="|"
+            restartInterval={10000}
+          />
         </div>
 
         <div className="intro-box">
@@ -66,13 +78,14 @@ const Home = () => {
 
       <div className="about" id="about" style={{
         display: 'flex',
+        height: '540px',
         backgroundColor: '#000000',
         borderRadius: '50px',
-        paddingTop: '50px',
+        paddingTop: '20px',
         paddingBottom: '20px',
         border: '1px solid #BC8BC2',
-        marginLeft: '90px', 
-        marginRight: '90px',
+        marginLeft: '150px',
+        marginRight: '150px',
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'flex-start',
@@ -101,19 +114,7 @@ const Home = () => {
           fontSize: '1.2rem',
           color: '#ffffff',
         }}>
-          {/* <p>
-            Hi! I’m Naveen Kumar Lotti, a Computer Science and Engineering student with a deep interest in building smart, user-focused solutions. I love working on real-world challenges and exploring how technology can make an impact.
-          </p>
-          <p>
-            I’m particularly passionate about Machine Learning, Deep Learning, and creating intelligent systems that adapt and learn. Alongside this, I have strong skills in web development and enjoy crafting modern, responsive applications with great UI/UX.
-          </p> */}
-          {/* <h3 style={{ marginTop: '20px', color: '#00ffd1' }}>Tech Stack</h3>
-          <ul style={{ lineHeight: '1.8' }}>
-            <li><b>Frontend:</b> HTML5, CSS3, JavaScript, React.js</li>
-            <li><b>Backend:</b> Node.js, Express.js, Flask, Kotlin</li>
-            <li><b>Databases:</b> MongoDB, MySQL</li>
-            <li><b>Other Tools:</b> Git, Vite, Figma, YOLOv5, Transformers (BART)</li>
-          </ul> */}
+          
         </div>
       </div>
 

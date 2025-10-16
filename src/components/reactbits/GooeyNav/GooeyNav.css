@@ -115,7 +115,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: white;
+  background: #d56ce3;
   transform: scale(0);
   opacity: 0;
   z-index: -1;
