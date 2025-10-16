@@ -51,7 +51,7 @@ const Home = () => {
               style={{
                 fontSize: "3.8rem",
                 color: "#fff",
-                backgroundColor: "#5516ebff",
+                backgroundColor: "#BC8BC2",
                 borderRadius: "10px",
                 padding: "5px 10px",
               }}
@@ -70,8 +70,8 @@ const Home = () => {
         borderRadius: '50px',
         paddingTop: '50px',
         paddingBottom: '20px',
-        border: '1px solid #00ffd1',
-        marginLeft: '90px',
+        border: '1px solid #BC8BC2',
+        marginLeft: '90px', 
         marginRight: '90px',
         flexDirection: 'row',
         justifyContent: 'center',
@@ -101,53 +101,23 @@ const Home = () => {
           fontSize: '1.2rem',
           color: '#ffffff',
         }}>
-          <p>
+          {/* <p>
             Hi! I’m Naveen Kumar Lotti, a Computer Science and Engineering student with a deep interest in building smart, user-focused solutions. I love working on real-world challenges and exploring how technology can make an impact.
           </p>
           <p>
             I’m particularly passionate about Machine Learning, Deep Learning, and creating intelligent systems that adapt and learn. Alongside this, I have strong skills in web development and enjoy crafting modern, responsive applications with great UI/UX.
-          </p>
-          <h3 style={{ marginTop: '20px', color: '#00ffd1' }}>Tech Stack</h3>
+          </p> */}
+          {/* <h3 style={{ marginTop: '20px', color: '#00ffd1' }}>Tech Stack</h3>
           <ul style={{ lineHeight: '1.8' }}>
             <li><b>Frontend:</b> HTML5, CSS3, JavaScript, React.js</li>
             <li><b>Backend:</b> Node.js, Express.js, Flask, Kotlin</li>
             <li><b>Databases:</b> MongoDB, MySQL</li>
             <li><b>Other Tools:</b> Git, Vite, Figma, YOLOv5, Transformers (BART)</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
 
       <div className="projects" id="projects">
-        <div className="project">
-          <div className="top"><img src="" alt="p_img1" /></div>
-          <div className="bottom">
-            <h2>Doc Verifier</h2>
-          </div>
-        </div>
-        <div className="project">
-          <div className="top"><img src="" alt="p_img2" /></div>
-          <div className="bottom">
-            <h2>Recyclable Waste Identificatio</h2>
-          </div>
-        </div>
-        <div className="project">
-          <div className="top"><img src="" alt="p_img3" /></div>
-          <div className="bottom">
-            <h2>SKill Finder</h2>
-          </div>
-        </div>
-        <div className="project">
-          <div className="top"><img src="" alt="p_img4" /></div>
-          <div className="bottom">
-            <h2>Snake Game</h2>
-          </div>
-        </div>
-        <div className="project">
-          <div className="top"><img src="" alt="p_img5" /></div>
-          <div className="bottom">
-            <h2>Calculator</h2>
-          </div>
-        </div>
       </div>
       <Footer />
 

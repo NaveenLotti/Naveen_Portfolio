@@ -35,8 +35,8 @@ body {
 .dynamic-text {
   font-size: 3rem;
   color: #fff;
-  background-color: #5516ebff;
-  border-radius: 5px;
+  background-color: #BC8BC2;
+    border-radius: 5px;
   padding: 5px 10px;
   white-space: nowrap;
   display: inline-block;
@@ -59,8 +59,8 @@ body {
 .name-text {
   font-size: 2.8rem;
   font-weight: 800;
-  color: #00e5ff;
-  text-shadow: 0 0 10px #00e5ff, 0 0 20px #00e5ff;
+  color: #BC8BC2;
+  text-shadow: 0 0 10px #BC8BC2, 0 0 20px #BC8BC2;
   animation: glow 2s ease-in-out infinite alternate;
 
 }

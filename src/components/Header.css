@@ -1,6 +1,7 @@
-body{
-    margin : 0;
+body {
+    margin: 0;
 }
+
 .header {
     position: fixed;
     top: 0;
@@ -14,19 +15,33 @@ body{
     background: rgb(0, 0, 0);
 }
 
-a{
-    text-decoration: none;
-    color: #5516ebff;
+#home {
+    scroll-margin-top: 300px;
+
 }
+
+#about {
+    scroll-margin-top: 80px;
+}
+
+#projects {
+    scroll-margin-top: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: #BC8BC2;
+}
+
 .gooey_nav {
     position: relative;
     width: 30%;
-    margin-right: 0px; 
+    margin-right: 0px;
     height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    font-size:1.4rem;
-    margin-right:80px;
+    font-size: 1.4rem;
+    margin-right: 80px;
 }
