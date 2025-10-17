@@ -54,7 +54,36 @@ body {
 .glitch {
   margin: 0px 20px !important;
 }
+.serviceItem:hover{
+  box-shadow: 0 0 15px #BC8BC2, 0 0 30px #BC8BC2;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
 
+.serviceItem{
+  text-align: center;
+  height: 280px;
+  width: 500px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+}
+
+.serviceItem p{
+  padding: 0 20px;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.serviceItem img{
+  height: 90px;
+}
+
+.serivess h2{
+  margin-top: 10px;
+  font-size: 2.5rem;
+  margin-right: 45px;
+  text-align: center;
+  color: #BC8BC2;
+}
 
 .name-text {
   font-size: 2.8rem;

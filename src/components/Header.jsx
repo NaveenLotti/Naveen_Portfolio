@@ -6,8 +6,8 @@ export default function Header() {
 
   const items = [
     { label: "Home", href: "#home" },
-    { label: "About", href: "#about" },
-    { label: "Projects", href: "#projects" },
+    { label: "About", href: "#About" },
+    { label: "Projects", href: "#Projects" },
     { label: "Contact", href: "https://mail.google.com/mail/?view=cm&to=naveenlotti02@gmail.com" },
   ];
 
