@@ -8,7 +8,7 @@ import icon_img from '../assets/code.png';
 import Galaxy from "../components/reactbits/Galaxy/Galaxy";
 import Footer from "../components/Footer";
 import TextType from "../components/reactbits/TextType/TextType";
-import Carousel from "../components/carousel";
+import Carousel from "../components/Carousel.jsx";
 import ml_img from '../assets/icons8-machine-learning-100.png';
 import android_img from '../assets/icons8-android-144.png';
 import web_img from '../assets/icons8-html-100.png';
